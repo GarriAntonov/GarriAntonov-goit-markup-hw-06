@@ -277,6 +277,43 @@ img {
   fill: var(--color-three);
 }
 
+.modal-text {
+  margin-top: 37px;
+  margin-bottom: 12px;
+  color: var(--color-two);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.modal-form {
+  width: 448px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  outline: 1px solid red;
+}
+.modal-input {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-label {
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: var(--main-color);
+  text-align: left;
+}
+
+textarea {
+  resize: none;
+}
+
 .benefits {
   display: none;
 }
