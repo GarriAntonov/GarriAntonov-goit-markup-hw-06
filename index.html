@@ -64,22 +64,23 @@
               <div class="modal-form">
                 <div class="modal-input">
                   <label class="modal-label" for="name">Ім'я</label>
-                  <input type="text" name="name" id="name" />
+                  <input class="input-property" type="text" name="name" id="name" />
                 </div>
 
                 <div class="modal-input">
                   <label class="modal-label" for="tel">Телефон</label>
-                  <input type="tel" name="tel" id="tel" />
+                  <input class="input-property" type="tel" name="tel" id="tel" />
                 </div>
 
                 <div class="modal-input">
                   <label class="modal-label" for="email">Пошта</label>
-                  <input type="email" name="email" id="email" />
+                  <input class="input-property" type="email" name="email" id="email" />
                 </div>
 
                 <div class="modal-input">
                   <label class="modal-label" for="comment">Коментар</label>
                   <textarea
+                    class="textarea-property"
                     name="comment"
                     id="comment"
                     cols=""
@@ -89,13 +90,13 @@
                 </div>
               </div>
 
-              <div>
+              <div class="checkbox">
                 <input type="checkbox" name="agreement" id="agreement" />
-                <label for="agreement">Погоджуюся з розсилкою та приймаю</label>
-                <a class="" href="" target="_blank" noreferrer noopener>Умови договору</a>
+                <label class="label-text" for="agreement">Погоджуюся з розсилкою та приймаю</label>
+                <a class="link-color" href="" target="_blank" noreferrer noopener>Умови договору</a>
               </div>
 
-              <button type="submit">Відправити</button>
+              <button class="button-submit" type="submit">Відправити</button>
             </form>
 
             <button class="button-close" data-modal-close>
@@ -633,14 +634,14 @@
             </ul>
           </div>
 
-          <div>
-            <h3>Підпишіться на розсилку</h3>
-
-            <form action="">
-              <label for=""></label>
-              <input type="email" />
-            </form>
-            <button type="submit">Підписатися</button>
+          <div class="footer-action">
+            <h3 class="footer-action-title">Підпишіться на розсилку</h3>
+            <div class="footer-action-div">
+              <form class="footer-action-form" action="">
+                <input type="email" name="" />
+              </form>
+              <button type="submit">Підписатися</button>
+            </div>
           </div>
         </div>
       </div>
