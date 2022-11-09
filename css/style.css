@@ -273,6 +273,10 @@ img {
   transform: translate(-50%, -50%);
 }
 
+.close-svg:hover {
+  fill: var(--color-three);
+}
+
 .benefits {
   display: none;
 }
