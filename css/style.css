@@ -297,6 +297,7 @@ img {
   /* outline: 1px solid red; */
 }
 .modal-input {
+  position: relative;
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
@@ -315,6 +316,18 @@ img {
   height: 40px;
   border: 1px solid var(--forms-border-color);
   border-radius: 4px;
+  padding-left: 42px;
+  padding-right: 15px;
+}
+
+.input-property:focus + .icon-modal {
+  fill: var(--color-three);
+}
+
+.icon-modal {
+  position: absolute;
+  bottom: 14px;
+  left: 15px;
 }
 
 .textarea-property {
@@ -359,7 +372,7 @@ textarea {
   background: var(--color-three);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  border: transparent;
+  border-style: none;
   cursor: pointer;
 }
 
@@ -675,6 +688,7 @@ textarea {
 }
 
 .footer-button-submit {
+  position: relative;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -684,10 +698,17 @@ textarea {
   letter-spacing: 0.06em;
   color: var(--background-main);
   margin-left: 12px;
-  padding: 10px 28px;
+  padding: 10px 62px 10px 28px;
   background: var(--color-three);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border-style: none;
+}
+
+.footer-button-submit svg {
+  position: absolute;
+  right: 28px;
+  top: 13px;
 }
 
 /* second page */
