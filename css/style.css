@@ -351,6 +351,7 @@ textarea {
 }
 
 .checkbox {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -358,10 +359,13 @@ textarea {
   margin-bottom: 30px;
 }
 
-.checkbox-input {
-  background: var(--color-two);
-  width: 16px;
-  height: 15px;
+.checkbox-svg {
+  /* left: 59px; */
+  left: 29px;
+}
+
+.checkbox-input:focus {
+  appearance: none;
 }
 
 .label-text {
