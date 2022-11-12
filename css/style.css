@@ -324,6 +324,10 @@ img {
   fill: var(--color-three);
 }
 
+.input-property:focus {
+  border-color: #2196f3;
+}
+
 .icon-modal {
   position: absolute;
   bottom: 14px;
