@@ -787,6 +787,7 @@ textarea {
   position: relative;
   flex-basis: calc((100% - 60px) / 3);
   border: 1px solid var(--border-color-work-list);
+  cursor: pointer;
 }
 
 .works-list > li:hover {
